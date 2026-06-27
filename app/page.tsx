@@ -95,7 +95,112 @@ export default function Resume() {
             </div>
           </section>
 
-          
+          {/* Leadership */}
+          <section>
+            <h2
+              >Leadership & Community Involvement
+            </h2>
+
+            {/* SOREP */}
+            <div>
+              <div>
+                <h3>USF SOREP Real Estate Competition</h3>
+                <span>Tampa, FL</span>
+              </div>
+
+              <div>
+                <p>3rd Place Contestant</p>
+                <p>Feb 2026 - May 2026</p>
+              </div>
+
+              <ul>
+                <li>
+                  Analyzed market, financial, and zoning data to determine 
+                  the highest and best use of a downtown Tampa property. 
+                </li>
+
+                <li>
+                  Created data visualizations and investment models to present 
+                  development recommendations to industry professionals.
+                </li>
+              </ul>
+            </div>
+
+            {/* AFS */}
+            <div>
+              <div>
+                <h3>Association of Filipino Students</h3>
+                <span>Tampa, FL</span>
+              </div>
+
+              <div>
+                <p>Sports Chair</p>
+                <p>April 2026 - Present </p>
+              </div>
+
+              <ul>
+                <li>
+                  Coordinated AFS intramural sports teams by recruiting players, 
+                  managing communication, and overseeing game logistics. 
+                </li>
+
+                <li>
+                  Collaborated with board members and partner organizations to 
+                  plan sports events and fundraisers to promote student engagement in sports.
+                </li>
+              </ul>
+            </div>
+
+            {/* VSA */}
+            <div>
+              <div>
+                <h3>Vietnamese Student Association</h3>
+                <span>Tampa, FL</span>
+              </div>
+
+              <div>
+                <p>Social Chair</p>
+                <p>April 2026 - Present</p>
+              </div>
+
+              <ul>
+                <li>
+                  Planned and led social events, icebreakers, and cultural programs to increase 
+                  member engagement and foster an inclusive community. 
+                </li>
+
+                <li>
+                  Coordinated mentorship pairings and collaborated with student organizations 
+                  to strengthen relationships and community involvement.
+                </li>
+              </ul>
+            </div>
+
+            {/* SGA */}
+            <div>
+              <div>
+                <h3>North Port Highschool Student Government Association</h3>
+                <span>North Port, FL</span>
+              </div>
+
+              <div>
+                <p>Member</p>
+                <p>Aug 2021 - May 2022</p>
+              </div>
+
+              <ul>
+                <li>
+                  Assisted in organizing school events such as Spirit Week, 
+                  Homecoming, and the annual Block Party. 
+                </li>
+
+                <li>
+                  Created data visualizations and investment models to present 
+                  development recommendations to industry professionals.
+                </li>
+              </ul>
+            </div>
+          </section>
         </div>
       </div>
     </main>
