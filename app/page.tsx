@@ -1,63 +1,63 @@
 export default function Resume() {
   return (
-    <main className="min-h-screen bg-gray-100 px-6 py-10">
-      <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+    <main className="min-h-screen bg-white px-6 py-6 font-serif text-black">
+      <div className="max-w-4xl mx-auto">
 
         {/* Header */}
-        <header className="bg-gray-900 text-white px-8 py-8">
-          <h1 className="text-4xl font-bold">Billy Joe Uyam</h1>
+        <header className="text-center mb-4">
+          <h1 className="text-3xl font-bold">Billy Uyam</h1>
 
-          <div className="mt-2 text-gray-300 text-sm space-y-1">
-            <p>billyuyam11@gmail.com</p>
-            <p>(813) 607-7031</p>
-            <a
+          <div className="text-sm mt-1">
+            <p>billyuyam11@gmail.com • (813) 607-7031 •
+             <a
               href="linkedin.com/in/billy-u-9a6399382"
-              className="underline hover:text-white"
+              className="underline ml-1"
             >
-              LinkedIn Profile
+              linkedin.com/in/billy-u-9a6399382
             </a>
+            </p>
           </div>
         </header>
 
         <div>
 
           {/* Objective */}
-          <section>
-            <h2 className="text-xl font-bold uppercase tracking-wide border-b-2 border-gray-300 pb-2"
+          <section className="ml-4 mr-4">
+            <h2 className="text-sm font-bold uppercase border-b border-black pb-1 mb-2 tracking-wide"
             >Objective
             </h2>
 
-            <p className="mt-4 text-gray-700 leading-relaxed">
+            <p className="text-sm leading-5 mt-2">
               To secure an internship in data analytics to apply skills where I can apply
               data-driven insights to mitigate real-world problems.
             </p>
           </section>
 
           {/* Education */}
-          <section className="mt-8">
-            <h2 className="text-xl font-bold uppercase tracking-wide border-b-2 border-gray-300 pb-2"
+          <section className="mt-4 ml-4 mr-4">
+            <h2 className="text-sm font-bold uppercase border-b border-black pb-1 mb-2 tracking-wide"
             >Education
             </h2>
 
             <div className="mt-4">
-              <div className="flex justify-between font-semibold">
+              <div className="flex justify-between text-sm font-semibold">
                 <h3>University of South Florida</h3>
                 <span>Tampa, FL</span>
               </div>
 
-              <div className="flex justify-between text-gray-700">
+              <div className="flex justify-between italic text-sm">
                 <p>B.S. Business Analytics and Information Systems</p>
                 <p>Expected May 2028</p>
               </div>
             </div>
 
             <div className="mt-5">
-              <div className="flex justify-between font-semibold">
+              <div className="flex justify-between text-sm font-semibold">
                 <h3>State College of Florida</h3>
                 <span>Venice, FL</span>
               </div>
 
-              <div className="flex justify-between text-gray-700">
+              <div className="flex justify-between italic text-sm">
                 <p>Associate of Arts</p>
                 <p>Aug 2023 - May 2025</p>
               </div>
@@ -65,23 +65,23 @@ export default function Resume() {
           </section>
 
           {/* Experience */}
-          <section className="mt-8">
-            <h2 className="text-xl font-bold uppercase tracking-wide border-b-2 border-gray-300 pb-2"
+          <section className="mt-4 ml-4 mr-4">
+            <h2 className="text-sm font-bold uppercase border-b border-black pb-1 mb-2 tracking-wide"
             >Work Experience
             </h2>
 
             <div className="mt-4">
-              <div className="flex justify-between font-semibold">
+              <div className="flex justify-between text-sm font-semibold">
                 <h3>Jacaranda Trace</h3>
                 <span>Venice, FL</span>
               </div>
 
-              <div className="flex justify-between italic text-gray-700">
+              <div className="flex justify-between italic text-sm">
                 <p>Server</p>
                 <p>Aug 2024 - Aug 2025</p>
               </div>
 
-              <ul className="list-disc ml-6 mt-3 space-y-2 text-gray-700">
+              <ul className="list-disc ml-5 mt-1 text-sm leading-5">
                 <li>
                   Served 60+ orders per shift in both dining area and room 
                   deliveries, demonstrating strong multitasking and customer service.
@@ -96,12 +96,12 @@ export default function Resume() {
           </section>
 
           {/* Skills */}
-          <section className="mt-8">
-            <h2 className="text-xl font-bold uppercase tracking-wide border-b-2 border-gray-300 pb-2">
+          <section className="mt-4 ml-4 mr-4">
+            <h2 className="text-sm font-bold uppercase border-b border-black pb-1 mb-2 tracking-wide">
               Skills & Awards
             </h2>
 
-            <div className="mt-4 space-y-4 text-gray-700">
+            <div className="mt-4 space-y-2 text-sm">
               <div>
                 <p><strong>Coding Languages: </strong>JavaScript (beginner) | HTML (intermediate) | CSS (intermediate)</p>
               </div>
@@ -117,24 +117,24 @@ export default function Resume() {
           </section>
 
           {/* Leadership */}
-          <section className="mt-8">
-            <h2 className="text-xl font-bold uppercase tracking-wide border-b-2 border-gray-300 pb-2"
+          <section className="mt-4 ml-4 mr-4">
+            <h2 className="text-sm font-bold uppercase border-b border-black pb-1 mb-2 tracking-wide"
               >Leadership & Community Involvement
             </h2>
 
             {/* SOREP */}
             <div className="mt-6">
-              <div className="flex justify-between font-semibold">
+              <div className="flex justify-between text-sm font-semibold">
                 <h3>USF SOREP Real Estate Competition</h3>
                 <span>Tampa, FL</span>
               </div>
 
-              <div className="flex justify-between italic text-gray-700">
+              <div className="flex justify-between italic text-sm">
                 <p>3rd Place Contestant</p>
                 <p>Feb 2026 - May 2026</p>
               </div>
 
-              <ul className="list-disc ml-6 mt-3 space-y-2 text-gray-700">
+              <ul className="list-disc ml-5 mt-1 text-sm leading-5">
                 <li>
                   Analyzed market, financial, and zoning data to determine 
                   the highest and best use of a downtown Tampa property. 
@@ -149,17 +149,17 @@ export default function Resume() {
 
             {/* AFS */}
             <div className="mt-6">
-              <div className="flex justify-between font-semibold">
+              <div className="flex justify-between text-sm font-semibold">
                 <h3>Association of Filipino Students</h3>
                 <span>Tampa, FL</span>
               </div>
 
-              <div className="flex justify-between italic text-gray-700">
+              <div className="flex justify-between italic text-sm">
                 <p>Sports Chair</p>
                 <p>April 2026 - Present </p>
               </div>
 
-              <ul className="list-disc ml-6 mt-3 space-y-2 text-gray-700">
+              <ul className="list-disc ml-5 mt-1 text-sm leading-5">
                 <li>
                   Coordinated AFS intramural sports teams by recruiting players, 
                   managing communication, and overseeing game logistics. 
@@ -174,17 +174,17 @@ export default function Resume() {
 
             {/* VSA */}
             <div className="mt-6">
-              <div className="flex justify-between font-semibold">
+              <div className="flex justify-between text-sm font-semibold">
                 <h3>Vietnamese Student Association</h3>
                 <span>Tampa, FL</span>
               </div>
 
-              <div className="flex justify-between italic text-gray-700">
+              <div className="flex justify-between italic text-sm">
                 <p>Social Chair</p>
                 <p>April 2026 - Present</p>
               </div>
 
-              <ul className="list-disc ml-6 mt-3 space-y-2 text-gray-700">
+              <ul className="list-disc ml-5 mt-1 text-sm leading-5">
                 <li>
                   Planned and led social events, icebreakers, and cultural programs to increase 
                   member engagement and foster an inclusive community. 
@@ -199,17 +199,17 @@ export default function Resume() {
 
             {/* SGA */}
             <div className="mt-6">
-              <div className="flex justify-between font-semibold">
+              <div className="flex justify-between text-sm font-semibold">
                 <h3>North Port Highschool Student Government Association</h3>
                 <span>North Port, FL</span>
               </div>
 
-              <div className="flex justify-between italic text-gray-700">
+              <div className="flex justify-between italic text-sm">
                 <p>Member</p>
                 <p>Aug 2021 - May 2022</p>
               </div>
 
-              <ul className="list-disc ml-6 mt-3 space-y-2 text-gray-700 py-4">
+              <ul className="list-disc ml-5 mt-1 text-sm leading-5">
                 <li>
                   Assisted in organizing school events such as Spirit Week, 
                   Homecoming, and the annual Block Party. 
