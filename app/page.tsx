@@ -96,12 +96,12 @@ export default function Resume() {
           </section>
 
           {/* Skills */}
-          <section>
-            <h2>
+          <section className="mt-8">
+            <h2 className="text-xl font-bold uppercase tracking-wide border-b-2 border-gray-300 pb-2">
               Skills & Awards
             </h2>
 
-            <div>
+            <div className="mt-4 space-y-4 text-gray-700">
               <div>
                 <p><strong>Coding Languages: </strong>JavaScript (beginner) | HTML (intermediate) | CSS (intermediate)</p>
               </div>
@@ -209,7 +209,7 @@ export default function Resume() {
                 <p>Aug 2021 - May 2022</p>
               </div>
 
-              <ul className="list-disc ml-6 mt-3 space-y-2 text-gray-700">
+              <ul className="list-disc ml-6 mt-3 space-y-2 text-gray-700 py-4">
                 <li>
                   Assisted in organizing school events such as Spirit Week, 
                   Homecoming, and the annual Block Party. 
