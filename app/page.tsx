@@ -95,6 +95,27 @@ export default function Resume() {
             </div>
           </section>
 
+          {/* Skills */}
+          <section>
+            <h2>
+              Skills & Awards
+            </h2>
+
+            <div>
+              <div>
+                <p><strong>Coding Languages: </strong>JavaScript (beginner) | HTML (intermediate) | CSS (intermediate)</p>
+              </div>
+
+              <div>
+                <p><strong>Data Visualization: </strong>Excel (intermediate) | Tableau (intermediate) | Visual Studio (intermediate)</p>
+              </div>
+
+              <div>
+                <p><strong>Awards: </strong>2x USF MUMA Dean's List | Lynn Pippenger School of Accountancy Certificate of Achievement | USF Directors Award | Associate of Arts Summa Cum Laude | 4x President's List SCF</p>
+              </div>
+            </div>
+          </section>
+
           {/* Leadership */}
           <section className="mt-8">
             <h2 className="text-xl font-bold uppercase tracking-wide border-b-2 border-gray-300 pb-2"
