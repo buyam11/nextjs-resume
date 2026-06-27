@@ -96,24 +96,24 @@ export default function Resume() {
           </section>
 
           {/* Leadership */}
-          <section>
-            <h2
+          <section className="mt-8">
+            <h2 className="text-xl font-bold uppercase tracking-wide border-b-2 border-gray-300 pb-2"
               >Leadership & Community Involvement
             </h2>
 
             {/* SOREP */}
-            <div>
-              <div>
+            <div className="mt-6">
+              <div className="flex justify-between font-semibold">
                 <h3>USF SOREP Real Estate Competition</h3>
                 <span>Tampa, FL</span>
               </div>
 
-              <div>
+              <div className="flex justify-between italic text-gray-700">
                 <p>3rd Place Contestant</p>
                 <p>Feb 2026 - May 2026</p>
               </div>
 
-              <ul>
+              <ul className="list-disc ml-6 mt-3 space-y-2 text-gray-700">
                 <li>
                   Analyzed market, financial, and zoning data to determine 
                   the highest and best use of a downtown Tampa property. 
@@ -127,18 +127,18 @@ export default function Resume() {
             </div>
 
             {/* AFS */}
-            <div>
-              <div>
+            <div className="mt-6">
+              <div className="flex justify-between font-semibold">
                 <h3>Association of Filipino Students</h3>
                 <span>Tampa, FL</span>
               </div>
 
-              <div>
+              <div className="flex justify-between italic text-gray-700">
                 <p>Sports Chair</p>
                 <p>April 2026 - Present </p>
               </div>
 
-              <ul>
+              <ul className="list-disc ml-6 mt-3 space-y-2 text-gray-700">
                 <li>
                   Coordinated AFS intramural sports teams by recruiting players, 
                   managing communication, and overseeing game logistics. 
@@ -152,18 +152,18 @@ export default function Resume() {
             </div>
 
             {/* VSA */}
-            <div>
-              <div>
+            <div className="mt-6">
+              <div className="flex justify-between font-semibold">
                 <h3>Vietnamese Student Association</h3>
                 <span>Tampa, FL</span>
               </div>
 
-              <div>
+              <div className="flex justify-between italic text-gray-700">
                 <p>Social Chair</p>
                 <p>April 2026 - Present</p>
               </div>
 
-              <ul>
+              <ul className="list-disc ml-6 mt-3 space-y-2 text-gray-700">
                 <li>
                   Planned and led social events, icebreakers, and cultural programs to increase 
                   member engagement and foster an inclusive community. 
@@ -177,18 +177,18 @@ export default function Resume() {
             </div>
 
             {/* SGA */}
-            <div>
-              <div>
+            <div className="mt-6">
+              <div className="flex justify-between font-semibold">
                 <h3>North Port Highschool Student Government Association</h3>
                 <span>North Port, FL</span>
               </div>
 
-              <div>
+              <div className="flex justify-between italic text-gray-700">
                 <p>Member</p>
                 <p>Aug 2021 - May 2022</p>
               </div>
 
-              <ul>
+              <ul className="list-disc ml-6 mt-3 space-y-2 text-gray-700">
                 <li>
                   Assisted in organizing school events such as Spirit Week, 
                   Homecoming, and the annual Block Party. 
