@@ -18,6 +18,21 @@ export default function Resume() {
             </a>
           </div>
         </header>
+
+        <div>
+
+          {/* Objective */}
+          <section>
+            <h2
+            >Objective
+            </h2>
+
+            <p>
+              To secure an internship in data analytics to apply skills where I can apply
+              data-driven insights to mitigate real-world problems.
+            </p>
+          </section>
+        </div>
       </div>
     </main>
   )
