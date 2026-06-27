@@ -65,23 +65,23 @@ export default function Resume() {
           </section>
 
           {/* Experience */}
-          <section>
-            <h2
+          <section className="mt-8">
+            <h2 className="text-xl font-bold uppercase tracking-wide border-b-2 border-gray-300 pb-2"
             >Work Experience
             </h2>
 
-            <div>
-              <div>
+            <div className="mt-4">
+              <div className="flex justify-between font-semibold">
                 <h3>Jacaranda Trace</h3>
                 <span>Venice, FL</span>
               </div>
 
-              <div>
+              <div className="flex justify-between italic text-gray-700">
                 <p>Server</p>
                 <p>Aug 2024 - Aug 2025</p>
               </div>
 
-              <ul>
+              <ul className="list-disc ml-6 mt-3 space-y-2 text-gray-700">
                 <li>
                   Served 60+ orders per shift in both dining area and room 
                   deliveries, demonstrating strong multitasking and customer service.
