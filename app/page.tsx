@@ -33,7 +33,7 @@ export default function Resume() {
             </p>
           </section>
 
-          {/* Education*/}
+          {/* Education */}
           <section className="mt-8">
             <h2 className="text-xl font-bold uppercase tracking-wide border-b-2 border-gray-300 pb-2"
             >Education
@@ -63,6 +63,39 @@ export default function Resume() {
               </div>
             </div>
           </section>
+
+          {/* Experience */}
+          <section>
+            <h2
+            >Work Experience
+            </h2>
+
+            <div>
+              <div>
+                <h3>Jacaranda Trace</h3>
+                <span>Venice, FL</span>
+              </div>
+
+              <div>
+                <p>Server</p>
+                <p>Aug 2024 - Aug 2025</p>
+              </div>
+
+              <ul>
+                <li>
+                  Served 60+ orders per shift in both dining area and room 
+                  deliveries, demonstrating strong multitasking and customer service.
+                </li>
+
+                <li>
+                  Trained four new employees in food running procedures,
+                  reducing wait time and improving work flow.
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          
         </div>
       </div>
     </main>
