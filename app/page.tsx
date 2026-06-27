@@ -23,11 +23,11 @@ export default function Resume() {
 
           {/* Objective */}
           <section>
-            <h2
+            <h2 className="text-xl font-bold uppercase tracking-wide border-b-2 border-gray-30 pb-2"
             >Objective
             </h2>
 
-            <p>
+            <p className="mt-4 text-gray-700 leading-relaxed">
               To secure an internship in data analytics to apply skills where I can apply
               data-driven insights to mitigate real-world problems.
             </p>
