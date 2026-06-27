@@ -32,6 +32,37 @@ export default function Resume() {
               data-driven insights to mitigate real-world problems.
             </p>
           </section>
+
+          {/* Education*/}
+          <section>
+            <h2
+            >Education
+            </h2>
+
+            <div>
+              <div>
+                <h3>University of South Florida</h3>
+                <span>Tampa, FL</span>
+              </div>
+
+              <div>
+                <p>B.S. Business Analytics and Information Systems</p>
+                <p>Expected May 2028</p>
+              </div>
+            </div>
+
+            <div>
+              <div>
+                <h3>State College of Florida</h3>
+                <span>Venice, FL</span>
+              </div>
+
+              <div>
+                <p>Associate of Arts</p>
+                <p>Aug 2023 - May 2025</p>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
     </main>
