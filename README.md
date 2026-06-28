@@ -1,20 +1,49 @@
-This is a [Next.js](https://nextjs.org) resume website bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) and buiLt with Tailwind CSS.
+Billy Uyam's Resume Website
+
+This is a [Next.js](https://nextjs.org) resume website bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) and created with Tailwind CSS.
 
 ## Getting Started
 
-First, run the development server:
+Step 1: Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+Step 2: Navigate to project resume
+
+```bash
+cd nextjs-resume
+```
+
+Step 3: Install dependencies
+
+```bash
+npm install
+```
+
+Step 4: Start the server
 
 ```bash
 npm run dev
+```
 
+Step 5: Open the broswer
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Learn More
+The resume willbe displayed on the home page (`src/app/page.tsx`).
 
-To learn more about Next.js, take a look at the following resources:
+## Features Implemented
+. Resume built in `src/app/page.tsx`
+. Semantic HTML structure
+. Styled with Tailwind CSS
+. Contact Information
+. Education Section
+. Work Experience Section
+. Skills & Awards Section
+. Leadership & Community Involvement Section
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Known Limitations
+. Cannot Download
+. Optimized for Destop Viewing
