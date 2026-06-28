@@ -35,15 +35,15 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 The resume willbe displayed on the home page (`src/app/page.tsx`).
 
 ## Features Implemented
-. Resume built in `src/app/page.tsx`
-. Semantic HTML structure
-. Styled with Tailwind CSS
-. Contact Information
-. Education Section
-. Work Experience Section
-. Skills & Awards Section
-. Leadership & Community Involvement Section
+- Resume built in `src/app/page.tsx`
+- Semantic HTML structure
+- Styled with Tailwind CSS
+- Contact Information
+- Education Section
+- Work Experience Section
+- Skills & Awards Section
+- Leadership & Community Involvement Section
 
 ## Known Limitations
-. Cannot Download
-. Optimized for Destop Viewing
+- Cannot Download
+- Optimized for Destop Viewing
