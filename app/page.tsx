@@ -147,6 +147,31 @@ export default function Resume() {
               </ul>
             </div>
 
+            {/* AIS */}
+            <div className="mt-6">
+              <div className="flex justify-between text-sm font-semibold">
+                <h3>Association for Information Systems</h3>
+                <span>Tampa, FL</span>
+              </div>
+
+              <div className="flex justify-between italic text-sm">
+                <p>Member</p>
+                <p>Sep 2025 - May 2026</p>
+              </div>
+
+              <ul className="list-disc ml-5 mt-1 text-sm leading-5">
+                <li>
+                  Participated in professional development workshops on Streamlit and Power BI, 
+                  gaining hands-on experience with interactive dashboard development, data visualization, and business intelligence tools.
+                </li>
+
+                <li>
+                  Applied data preparation and AI-assisted analytics techniques 
+                  to strengthen skills in data analysis and dashboard creation.
+                </li>
+              </ul>
+            </div>
+            
             {/* AFS */}
             <div className="mt-6">
               <div className="flex justify-between text-sm font-semibold">
@@ -197,30 +222,7 @@ export default function Resume() {
               </ul>
             </div>
 
-            {/* SGA */}
-            <div className="mt-6">
-              <div className="flex justify-between text-sm font-semibold">
-                <h3>North Port Highschool Student Government Association</h3>
-                <span>North Port, FL</span>
-              </div>
 
-              <div className="flex justify-between italic text-sm">
-                <p>Member</p>
-                <p>Aug 2021 - May 2022</p>
-              </div>
-
-              <ul className="list-disc ml-5 mt-1 text-sm leading-5">
-                <li>
-                  Assisted in organizing school events such as Spirit Week, 
-                  Homecoming, and the annual Block Party. 
-                </li>
-
-                <li>
-                  Created data visualizations and investment models to present 
-                  development recommendations to industry professionals.
-                </li>
-              </ul>
-            </div>
           </section>
         </div>
       </div>
