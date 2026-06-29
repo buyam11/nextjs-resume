@@ -221,8 +221,6 @@ export default function Resume() {
                 </li>
               </ul>
             </div>
-
-
           </section>
         </div>
       </div>
